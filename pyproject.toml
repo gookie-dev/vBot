@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "vGen"
+version = "1.0"
+description = "vGen is a small Python-Discord Bot with which you can draw teams and maps for Valorant on discord."
+authors = ["gookieAT>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+discord = "^1.0.1"
+flask = "^1.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
