@@ -68,6 +68,14 @@ version = "1.0.1"
 
 [[package]]
 category = "main"
+description = "A simple discord slash command handler for discord.py."
+name = "discord-py-slash-command"
+optional = false
+python-versions = ">=3.6"
+version = "1.1.1"
+
+[[package]]
+category = "main"
 description = "A Python wrapper for the Discord API"
 name = "discord.py"
 optional = false
@@ -148,6 +156,20 @@ version = "5.1.0"
 
 [[package]]
 category = "main"
+description = "A library for interacting with features of repl.it"
+name = "replit"
+optional = false
+python-versions = ">=3.8,<4.0"
+version = "3.0.0"
+
+[package.dependencies]
+aiohttp = ">=3.6.2,<4.0.0"
+flask = ">=1.1.2,<2.0.0"
+typing_extensions = ">=3.7.4,<4.0.0"
+werkzeug = ">=1.0.1,<2.0.0"
+
+[[package]]
+category = "main"
 description = "Backported and Experimental Type Hints for Python 3.5+"
 name = "typing-extensions"
 optional = false
@@ -179,7 +201,7 @@ idna = ">=2.0"
 multidict = ">=4.0"
 
 [metadata]
-content-hash = "67179e68f36674eb3800ba17a69b0effefe435e61bc749fad79640b809325a2e"
+content-hash = "b418e1e54ea8ef63a1b7bfc26c32648e5808a4f599c3e3ef0c4932add1520c10"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -241,6 +263,10 @@ click = [
 discord = [
     {file = "discord-1.0.1-py3-none-any.whl", hash = "sha256:9d4debb4a37845543bd4b92cb195bc53a302797333e768e70344222857ff1559"},
     {file = "discord-1.0.1.tar.gz", hash = "sha256:ff6653655e342e7721dfb3f10421345fd852c2a33f2cca912b1c39b3778a9429"},
+]
+discord-py-slash-command = [
+    {file = "discord-py-slash-command-1.1.1.tar.gz", hash = "sha256:ec9b1c8b61c40e2d5f5e4e08c746ba2aabbc2bad3384f45c9794c5d698bdf3fc"},
+    {file = "discord_py_slash_command-1.1.1-py3-none-any.whl", hash = "sha256:b2ef975194e7753e9beabc96ac279d1a50fb0a0d59ed1d57cbcb041c23571b4b"},
 ]
 "discord.py" = [
     {file = "discord.py-1.6.0-py3-none-any.whl", hash = "sha256:3df148daf6fbcc7ab5b11042368a3cd5f7b730b62f09fb5d3cbceff59bcfbb12"},
@@ -354,6 +380,10 @@ multidict = [
     {file = "multidict-5.1.0-cp39-cp39-win32.whl", hash = "sha256:fc13a9524bc18b6fb6e0dbec3533ba0496bbed167c56d0aabefd965584557d80"},
     {file = "multidict-5.1.0-cp39-cp39-win_amd64.whl", hash = "sha256:7df80d07818b385f3129180369079bd6934cf70469f99daaebfac89dca288359"},
     {file = "multidict-5.1.0.tar.gz", hash = "sha256:25b4e5f22d3a37ddf3effc0710ba692cfc792c2b9edfb9c05aefe823256e84d5"},
+]
+replit = [
+    {file = "replit-3.0.0-py3-none-any.whl", hash = "sha256:3dd4f21b8b2a44b8c645a15e87398fa129b356cb6a88faa5eedd30374cc404e1"},
+    {file = "replit-3.0.0.tar.gz", hash = "sha256:7558e5ce46333062849b2c3be058a90d7769f6d7b1ad2382e78981cfaede2aa1"},
 ]
 typing-extensions = [
     {file = "typing_extensions-3.7.4.3-py2-none-any.whl", hash = "sha256:dafc7639cde7f1b6e1acc0f457842a83e722ccca8eef5270af2d74792619a89f"},
